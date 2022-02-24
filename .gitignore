@@ -1,0 +1,5 @@
+credentials.yml.key
+/node_modules
+/src/apps/block_chain_contracts/build/contracts
+
+.DS_Store

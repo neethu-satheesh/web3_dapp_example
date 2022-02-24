@@ -1,0 +1,8 @@
+type Query {
+  companies: [Company]!
+  company(id: ID!): Company
+}
+
+type Mutation {
+  createCompany(company: CompanyCreateInput!): Transaction
+}

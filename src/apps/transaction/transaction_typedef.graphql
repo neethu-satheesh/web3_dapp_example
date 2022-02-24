@@ -1,0 +1,17 @@
+type Transaction { 
+  tx: String
+  receipt: Receipt
+}
+
+type Receipt {
+  transactionHash: String
+  transactionIndex: Int
+  blockNumber: Int
+  blockHash: String
+  from: String
+  to: String
+  cumulativeGasUsed: Int
+  gasUsed: Int
+  contractAddress: String
+  status: String
+}
